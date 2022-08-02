@@ -1,0 +1,28 @@
+#!/bin/bash
+cd /home/ec2-user
+
+# Enable Python 3.8
+amazon-linux-extras enable python3.8
+
+# Install gcc and python3
+yum install -y gcc-7.3.1 python38-3.8.5 python38-devel-3.8.5
+
+
+# Link Python3.8 to python3
+ln -s -f /usr/bin/python3.8 /usr/bin/python3
+
+# Update pip
+python3.8 -m pip install --upgrade pip==21.0.1
+
+# Set up a virtual environment
+python3.8 -m venv environment
+source environment/bin/activate
+pip install -r requirements.txt
+
+#yum update
+#easy_install pip
+#pip install virtualenv
+#cd /home/ec2-user
+#virtualenv environment
+#source environment/bin/activate
+#pip install -r requirements.txt
