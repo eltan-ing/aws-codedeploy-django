@@ -7,6 +7,8 @@ Agradecimientos a  CapacitaciónUsach y al Profesor David Victoria para el ramo
 Herramientas DevOps en AWS https://diplomadociberseguridad.com/devops-en-aws-2/ 
 
 
-El origen del codigo fue proporcionado por https://github.com/nakashimayugo/samurai Muchas Gracias!
+El origen del codigo fue proporcionado por https://github.com/nakashimayugo/samurai y posteriormente modificado. 
+
+Muchas Gracias!
 
 
